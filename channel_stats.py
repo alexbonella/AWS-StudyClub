@@ -69,5 +69,3 @@ s3.Bucket(BUCKET).upload_file('stats_channel_'+date.split()[0].replace('-','_')+
 # Remove File
 os.remove('stats_channel_'+date.split()[0].replace('-','_')+'.json')
 
-print('/n')
-print('END')
